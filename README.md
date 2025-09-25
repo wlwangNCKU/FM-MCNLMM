@@ -1,11 +1,11 @@
 # FM-MCNLMM
 Supplement: Data and Code for "Grouped Multi-trajectory Modeling Using Finite Mixtures of Multivariate Contaminated Normal Linear Mixed Model"
 
-#################################################################################################################################################
+##########################################################################################################################################
 Source R codes and data for the manuscript: 
 "Grouped Multi-trajectory Modeling Using Finite Mixtures of Multivariate Contaminated Normal Linear Mixed Model",
 by Tsung-I Lin and Wan-Lun Wang*
-#################################################################################################################################################
+##########################################################################################################################################
 
 # Author responsible for the code #
 For questions, comments or remarks about the code please contact responsible author, Wan-Lun Wang (wangwl@gs.ncku.edu.tw).
@@ -54,19 +54,19 @@ R codes for the implementation of the proposed methodology are provided.
 # Data and Code for Application #
 ## Subfolder: ./Application/code ##
 `./Application/code`
-       contains main scripts of 
-        - (1) **adni.run.r**: main script for reproducting the fitting results of 12 candidate models to the subset of ADNI data;
-        - (2) **fig1.r**: main script for reproducting Figure 1 (run 'adni.run.r' first or load 'fitADNI.RData' directly, and then run 'fig1.r');
-	    - (3) **fig2.r** main script for reproducting supplementary Figure 2 (read 'ADNIMERGE.csv' first, and then run 'fig2.r');
-	    - (4) **fig5.r** main script for reproducting Figure 5 (load 'fitADNI.RData' first, and then run 'fig5.r');
-	    - (5) **fig6.r**: main script for reproducting Figure 6 (load 'fitADNI.RData' first, and then run 'fig6.r');
-	    - (6) **figB4.r**: main script for reproducting Figure B.4 (load 'fitADNI.RData' first, and then run 'figB4.r');
-        - (7) **Tables1-2.r**: main script for reproducting Table 1 and Table 2 presented in Section 5.
+contains main scripts of 
+- (1) **adni.run.r**: main script for reproducting the fitting results of 12 candidate models to the subset of ADNI data;
+- (2) **fig1.r**: main script for reproducting Figure 1 (run 'adni.run.r' first or load 'fitADNI.RData' directly, and then run 'fig1.r');
+- (3) **fig2.r** main script for reproducting supplementary Figure 2 (read 'ADNIMERGE.csv' first, and then run 'fig2.r');
+- (4) **fig5.r** main script for reproducting Figure 5 (load 'fitADNI.RData' first, and then run 'fig5.r');
+- (5) **fig6.r**: main script for reproducting Figure 6 (load 'fitADNI.RData' first, and then run 'fig6.r');
+- (6) **figB4.r**: main script for reproducting Figure B.4 (load 'fitADNI.RData' first, and then run 'figB4.r');
+- (7) **Tables1-2.r**: main script for reproducting Table 1 and Table 2 presented in Section 5.
 
 ## Subfolder: ./Application/data ##
 `./Application/data`
-      contains
-      - **ADNIMERGE.csv**: the dataset from the Alzheimer's Disease Neuroimaging Initiative (ADNI) study.
+contains
+- **ADNIMERGE.csv**: the dataset from the Alzheimer's Disease Neuroimaging Initiative (ADNI) study.
 
 ## Subfolder: ./Application/function ##
 `./Application/function`
