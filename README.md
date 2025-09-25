@@ -55,26 +55,23 @@ R codes for the implementation of the proposed methodology are provided.
 ## Subfolder: ./Application/code ##
 `./Application/code`
        contains main scripts of 
-
         - (1) **adni.run.r**: main script for reproducting the fitting results of 12 candidate models to the subset of ADNI data;
         - (2) **fig1.r**: main script for reproducting Figure 1 (run 'adni.run.r' first or load 'fitADNI.RData' directly, and then run 'fig1.r');
-	- (3) **fig2.r** main script for reproducting supplementary Figure 2 (read 'ADNIMERGE.csv' first, and then run 'fig2.r');
-	- (4) **fig5.r** main script for reproducting Figure 5 (load 'fitADNI.RData' first, and then run 'fig5.r');
-	- (5) **fig6.r**: main script for reproducting Figure 6 (load 'fitADNI.RData' first, and then run 'fig6.r');
-	- (6) **figB4.r**: main script for reproducting Figure B.4 (load 'fitADNI.RData' first, and then run 'figB4.r');
+	    - (3) **fig2.r** main script for reproducting supplementary Figure 2 (read 'ADNIMERGE.csv' first, and then run 'fig2.r');
+	    - (4) **fig5.r** main script for reproducting Figure 5 (load 'fitADNI.RData' first, and then run 'fig5.r');
+	    - (5) **fig6.r**: main script for reproducting Figure 6 (load 'fitADNI.RData' first, and then run 'fig6.r');
+	    - (6) **figB4.r**: main script for reproducting Figure B.4 (load 'fitADNI.RData' first, and then run 'figB4.r');
         - (7) **Tables1-2.r**: main script for reproducting Table 1 and Table 2 presented in Section 5.
 
 ## Subfolder: ./Application/data ##
 `./Application/data`
-      contains 
-
+      contains
       - **ADNIMERGE.csv**: the dataset from the Alzheimer's Disease Neuroimaging Initiative (ADNI) study.
 
 ## Subfolder: ./Application/function ##
 `./Application/function`
  	 contains the program (function) of
-
-         - (1) **basicfn.r**: main script collecting some basic functions for computing autocorrelation function, mis-classification rate, etc;
+     - (1) **basicfn.r**: main script collecting some basic functions for computing autocorrelation function, mis-classification rate, etc;
 	 - (2) **fmmlmm.fn.r**: main script for running the AECM algorithm for fitting the FM-MLMM;
 	 - (3) **fmmcnlmm.fn.r**: main script for running the AECM algorithm for fitting the FM-MCNLMM;
 	 - (4) **efmmlmm.fn.r**: main script for running the AECM algorithm for fitting the EFM-MLMM;
@@ -82,11 +79,10 @@ R codes for the implementation of the proposed methodology are provided.
 
 ## Subfolder: ./Application/result ##
 `./Application/result`
-        contains 
-
+        contains
 	- (1) **fitADNI.RData**: analysis results for the ADNI data based on 12 candidate models;
 	- (2) **fig1.eps**: (Figure 1) trajectory plots for ADAS^0.5 and log10(MidTemp) scores for the cognitively normal (CN), mild cognitive impairment (MCI), and Alzheimers disease (AD) patients;
-        - (3) **fig2.eps**: (Figure 2) scatter plots, the 95% confidence ellipses, histogram and boxplots of empirical Bayes estimates for random effects and residuals obtained by the fitted linear mixed-effects models;
+    - (3) **fig2.eps**: (Figure 2) scatter plots, the 95% confidence ellipses, histogram and boxplots of empirical Bayes estimates for random effects and residuals obtained by the fitted linear mixed-effects models;
 	- (4) **fig5.eps**: (Figure 4) confusion matrix plots for classifcation results for the ADNI data based on three candidate models;
 	- (5) **fig6.eps**: (Figure 5) scatter plots and summary histograms for the estimated fixed and random effects superimposed on a set of contour lines of the bivariate contaminated normal densities of each group;
 	- (6) **figB4.eps**: (Figure B.4) fitted mean curves of the two outcomes across groups based on the 2-component EFM-MCNLMM with DEC errors;
@@ -97,7 +93,6 @@ R codes for the implementation of the proposed methodology are provided.
 ## Subfolder: ./Simulation/code ##
 `./Simulation/code`
       contains
-
 	- (1) **sim.r**: main script for re-generate simulation results for Simulation 1 with two (nu, rho) scenarios under various sample sizes;
 	- (2) **fig3.r**: main script for reproducing Figure 3 that shows the results of comparision of CCR scores for Simulation 1;
 	- (3) **figB1.r**: main script for reproducing Supplementary Figure B.1 that show the results of biases obtained by the fitted FM-MCNLMM for Simulation 1;
@@ -110,8 +105,7 @@ R codes for the implementation of the proposed methodology are provided.
 ## Subfolder: ./Simulation/function ##
 `./Simulation/function`
  	 contains the program (function) of
-
-         - (1) **basicfn.r**: main script for collecting some basic functions for computing autocorrelation function, mis-classification rate, etc;
+     - (1) **basicfn.r**: main script for collecting some basic functions for computing autocorrelation function, mis-classification rate, etc;
 	 - (2) **fmmlmm.fn.r**: main script for running the AECM algorithm for fitting the FM-MLMM;
 	 - (3) **fmmtlmm.fn.r**: main script for running the AECM algorithm for fitting the FM-MtLMM;
 	 - (4) **fmmcnlmm.fn.r**: main script for running the AECM algorithm for fitting the FM-MCNLMM;
@@ -121,8 +115,7 @@ R codes for the implementation of the proposed methodology are provided.
 
 ## Subfolder: ./Simulation/result ##
 `./Simulation/result`
-        contains 
-
+        contains
 	- (1) 4 subsubfolders: `./SIM1`, `./SIM2`, `./SIM3`, and `./SIM4`,  storing the **class.txt**, **biasC.txt**, **estC.txt**, **fit.txt**, and **selection.txt** text files for Simulation 1;
 	- (2) 8 subsubfolders: `./ESIM1`, `./ESIM2`, `./ESIM3`, `./ESIM4`, `./ESIM5`, `./ESIM6`, `./ESIM7`, and `./ESIM8`,  storing the **class.txt**, **estEN.txt**, **estET.txt**, **estEC.txt**, **fit.txt**, and **selection.txt** text files for Simulation 2;
 	- (3) **fig3.eps**: (Figure 3) boxplots for the correct classification rates (CCR) obtained by fitting the FM-MLMM, FM-MtLMM and FM-MCNLMM;
