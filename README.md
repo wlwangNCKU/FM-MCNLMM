@@ -1,4 +1,4 @@
-# FM-MCNLMM
+# Data and Code for FM-MCNLMM
 Supplement: Data and Code for "Grouped Multi-trajectory Modeling Using Finite Mixtures of Multivariate Contaminated Normal Linear Mixed Model" by Tsung-I Lin and Wan-Lun Wang*
 
 # Author responsible for the code #
